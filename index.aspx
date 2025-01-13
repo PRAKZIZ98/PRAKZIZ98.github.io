@@ -51,13 +51,13 @@
                                 <table class="input-form">
                                     <tr>
                                         <td class="form-title">
-                                            Ingresa tu n�mero de asociado
+                                            Ingresa tu número de asociado
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="form-input">
                                             <input type="text" id="ID_ASOCIADO" name="ID_ASOCIADO" maxlength="7"
-                                                placeholder="N�mero de asociado">
+                                                placeholder="Número de asociado">
                                         </td>
                                     </tr>
                                     <tr>
@@ -98,7 +98,7 @@
         <div class="modal-content">
             <span class="close" onclick="cerrarModal()">X</span>
             <div id="modal_contenido">
-                <!-- Contenido dinámico del modal -->
+                <!-- Contenido dinÃ¡mico del modal -->
             </div>
         </div>
     </div>
@@ -107,7 +107,7 @@
 
 <!-- Scripts -->
 <script>
-    // Función para cerrar el modal
+    // FunciÃ³n para cerrar el modal
     function cerrarModal() {
         document.getElementById("tvesModal").style.display = "none";
     }
