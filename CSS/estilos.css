@@ -1,0 +1,138 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5; /* Fondo neutro para toda la página */
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse; /* Elimina espacios entre celdas */
+}
+
+/* Layout Styles */
+.top-left-corner, 
+.top-right-corner, 
+.left-space, 
+.right-space, 
+.top-bar {
+    background-color: #0cb12b; /* Color verde principal */
+}
+
+.center-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form Container */
+.form-container {
+    text-align: center;
+    background-color: #0cb12b;
+    padding: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-form {
+    width: 290px;
+    margin: 0 auto;
+    font-size: 1px;
+}
+
+.input-form .form-title {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.input-form .form-input input {
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+.input-form .form-input input:focus {
+    border-color: #0cb12b; /* Verde en el foco */
+    box-shadow: 0 0 5px rgba(12, 177, 43, 0.5); /* Sombra verde */
+}
+
+.input-form .form-actions button {
+    width: 100px;
+    height: 35px;
+    background-color: #ffd029;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #e0b400;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-form .form-actions button:hover {
+    background-color: #e0b400; /* Color más oscuro al pasar el mouse */
+    color: white;
+}
+
+/* Modal Styles */
+.modalContainer {
+    display: none; /* Oculta inicialmente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.modal-content .close:hover {
+    color: #000;
+}
+
+/* Additional Styles */
+.center-content {
+    padding: 20px 0;
+}
+
+button {
+    font-family: Arial, sans-serif;
+}
+
+/* Utilidades */
+.hidden {
+    display: none !important; /* Clases para ocultar elementos */
+}
